@@ -22,14 +22,14 @@ namespace Practice2
             int example2 = int.Parse(example);//Пример преобразования данных(В задании не было решил попробовать для себя)
             int notask = Convert.ToInt32(pointsMath);//Тоже самое что и выше
             //Первый вариант вывода
-            WriteLine($"ФИО:{fullName} Возраст: {age} Электронная почта {email}");
-            WriteLine($"Баллы по программированию {pointsProg}");
-            WriteLine($"Баллы по математике {pointsMath}");
-            WriteLine($"Баллы по физике {pointsPhys}");
+            WriteLine($"ФИО:{fullName} Возраст: {age} Электронная почта: {email}");
+            WriteLine($"Баллы по программированию: {pointsProg}");
+            WriteLine($"Баллы по математике: {pointsMath}");
+            WriteLine($"Баллы по физике: {pointsPhys}");
             //Второй вариант вывода
-            WriteLine("ФИО: {0} Возраст {1} Электронная почта: {2} \nБаллы по программированию:{3} \nБаллы по математике: {4} \nБаллы по физике {5}", 
+            WriteLine("ФИО: {0} Возраст: {1} Электронная почта: {2} \nБаллы по программированию:{3} \nБаллы по математике: {4} \nБаллы по физике: {5}", 
                 fullName,
-                age,
+                age, 
                 email,
                 pointsProg,
                 pointsMath,
