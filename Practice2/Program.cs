@@ -29,8 +29,8 @@ namespace Practice2
             //Второй вариант вывода
             WriteLine("ФИО: {0} Возраст {1} Электронная почта: {2} \nБаллы по программированию:{3} \nБаллы по математике: {4} \nБаллы по физике {5}", 
                 fullName,
-                email,
                 age,
+                email,
                 pointsProg,
                 pointsMath,
                 pointsPhys
