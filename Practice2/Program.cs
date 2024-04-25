@@ -23,9 +23,13 @@ namespace Practice2
             int notask = Convert.ToInt32(pointsMath);//Тоже самое что и выше
             //Первый вариант вывода
             WriteLine($"ФИО:{fullName} Возраст: {age} Электронная почта: {email}");
+            ReadKey(true);
             WriteLine($"Баллы по программированию: {pointsProg}");
+            ReadKey(true);
             WriteLine($"Баллы по математике: {pointsMath}");
+            ReadKey(true);
             WriteLine($"Баллы по физике: {pointsPhys}");
+            ReadKey(true);
             //Второй вариант вывода
             WriteLine("ФИО: {0} Возраст: {1} Электронная почта: {2} \nБаллы по программированию:{3} \nБаллы по математике: {4} \nБаллы по физике: {5}", 
                 fullName,
@@ -35,6 +39,7 @@ namespace Practice2
                 pointsMath,
                 pointsPhys
                 );
+            ReadKey(true);
             //Второе задание
             double sum = pointsProg + pointsMath + pointsPhys;
             double average = sum / 3;
